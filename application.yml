@@ -11,4 +11,4 @@ spring:
 spring:
   profiles: test
   application:
-    name: microservice-dev
+    name: microservice-test
