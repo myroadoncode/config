@@ -1,14 +1,10 @@
-spring:
-  profiles:
-    active: dev
+server:
+  port: 8081
 
----
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
 spring:
-    profiles: dev
-    application:
-      name: microservice-dev
----
-spring:
-  profiles: test
   application:
-    name: microservice-test
+    name: product-server-producer
