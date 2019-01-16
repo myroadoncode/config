@@ -8,4 +8,4 @@ eureka:
 spring:
   application:
     name: product-server-producer
-    123
+    1234
