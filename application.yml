@@ -9,3 +9,4 @@ spring:
   application:
     name: product-server-producer
     111
+    test dev push
